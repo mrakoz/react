@@ -28,7 +28,7 @@ const IconBar = ({orientation}) => {
     )
 }
 
-  const element =(
+const element =(
     <div>
         <IconBar orientation="horizontal"/>
         <IconBar orientation="vertical"/>
@@ -40,4 +40,3 @@ const IconBar = ({orientation}) => {
     element,
     document.getElementById('root')
   );
-
