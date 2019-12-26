@@ -51,8 +51,6 @@
   }
   
   
-  
-  
   .vertical.icon-bar {
     width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
@@ -67,6 +65,11 @@
     font-size: 36px; /* Increased font-size */
   }
   
+  .vertical.icon-bar a .fa {
+    width: 20px;
+  }
+
+
   .vertical.icon-bar a:hover {
     background-color: #000; /* Add a hover color */
   }

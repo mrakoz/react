@@ -16,7 +16,7 @@ const FacebookButton = () => {
 return <SocialButton type="facebook" />
 }
 
-const IconBar = ({orientation}) => {
+const IconBar = ({orientation = "horizontal"}) => {
     return (
         <div className={`${orientation} icon-bar `}>
         <a className="active" href="#"><i className="fa fa-home" /></a>
@@ -28,9 +28,9 @@ const IconBar = ({orientation}) => {
     )
 }
 
-  const element =(
+const element =(
     <div>
-        <IconBar orientation="horizontal"/>
+        <IconBar />
         <IconBar orientation="vertical"/>
         <TwitterButton />
         <FacebookButton />
@@ -40,4 +40,3 @@ const IconBar = ({orientation}) => {
     element,
     document.getElementById('root')
   );
-
